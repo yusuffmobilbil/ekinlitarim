@@ -14,7 +14,7 @@ export default function AboutHomeOne() {
                   alt="img"
                   className="mimg"
                 />
-                <img
+                {/* <img
                   src="assets/img/about/f-food.png"
                   alt="img"
                   className="f-food"
@@ -30,7 +30,7 @@ export default function AboutHomeOne() {
                   alt="img"
                   className="t-food wow fadeInLeft"
                   data-wow-delay=".7s"
-                />
+                /> */}
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
