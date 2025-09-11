@@ -6662,12 +6662,12 @@ iframe {
   font-size: 14px;
   margin-bottom: 20px;
 }
-.product-infowrap .ratting {
+.product-infowrap .rating {
   display: flex;
   gap: 5px;
   margin-bottom: 10px;
 }
-.product-infowrap .ratting i:not(:last-child) {
+.product-infowrap .rating i:not(:last-child) {
   color: var(--p2-clr);
 }
 .product-infowrap .creview {
@@ -8466,18 +8466,19 @@ input.main-search-input::placeholder {
   padding: 60px;
   margin: 30px;
 }
-.testimonail-common-items .ratting {
+.testimonail-common-items .rating {
   margin-bottom: 30px;
 }
-.testimonail-common-items .ratting .stars {
+.testimonail-common-items .rating .stars {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-.testimonail-common-items .ratting .stars i {
+.testimonail-common-items .rating .stars i {
   font-size: 20px;
+  color: var(--p2-clr);
 }
-.testimonail-common-items .ratting .stars i:not(:last-child) {
+.testimonail-common-items .rating .stars i:not(:last-child) {
   color: var(--p2-clr);
 }
 .testimonail-common-items p {
@@ -8551,10 +8552,10 @@ input.main-search-input::placeholder {
   .testimonail-common-items.stylev03 .review-man .cont h3 {
     font-size: 20px !important;
   }
-  .testimonail-common-items .ratting {
+  .testimonail-common-items .rating {
     margin-bottom: 16px;
   }
-  .testimonail-common-items .ratting img {
+  .testimonail-common-items .rating img {
     width: 30px;
   }
   .testimonail-common-items p {
@@ -8572,7 +8573,7 @@ input.main-search-input::placeholder {
   .testimonail-common-items.stylev03 .review-man .cont h3 {
     font-size: 20px !important;
   }
-  .testimonail-common-items .ratting {
+  .testimonail-common-items .rating {
     margin-bottom: 16px;
   }
   .testimonail-common-items p {

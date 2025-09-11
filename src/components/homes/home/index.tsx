@@ -22,9 +22,9 @@ export default function HomeOne() {
       <AboutHomeOne />
       {/* <GalleryHomeOne />
       <CounterHomeOne />
-      <ServiceHomeOne />
+      <ServiceHomeOne /> */}
       <TestimoniaHomeOne />
-      <PortfolioHomeOne />
+      {/* <PortfolioHomeOne />
       <CtaHomeOne />
       <FeatureVideo />
       <BlogHomeOne />
