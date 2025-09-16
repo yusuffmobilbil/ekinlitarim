@@ -4882,7 +4882,7 @@ iframe {
   /* background: url('../img/about/bread-bg.png') no-repeat center center; */ 
   background-size: cover;
   position: relative;
-  padding: 150px 0;
+
   z-index: 1;
 }
 .breadcrumnd-banner::before {

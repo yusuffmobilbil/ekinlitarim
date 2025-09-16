@@ -10,7 +10,7 @@ export default function Breadcrumnd({ title, subtitle }: PropsType) {
     <>
       <section
         className="breadcrumnd-banner overflow-hidden"
-        style={{ backgroundImage: "url(assets/img/about/bread-bg.png)" }}
+        // style={{ backgroundImage: "url(assets/img/about/bread-bg.png)" }}
       >
         <div className="container">
           <div className="breadcrumnd-wrapp">
@@ -29,7 +29,7 @@ export default function Breadcrumnd({ title, subtitle }: PropsType) {
               </ul>
             </div>
             <div className="bread-thumb d-sm-block d-none">
-              <img src="assets/img/about/tt-slice.png" alt="img" />
+              <img src="assets/img/element/get-element.png" alt="img" />
             </div>
           </div>
         </div>

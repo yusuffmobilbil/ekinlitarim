@@ -12,16 +12,18 @@ export default function NavMenu() {
               item.has_dropdown ? "has-dropdown active menu-thumb" : ""
             }`}
           >
-            {/* <Link to={item.link}>
-              {item.title}
-              {item.has_dropdown || item.img_dropdown ? <i className="fas fa-angle-down"></i> : null}
-            </Link> */}
-            <Link to={"/#"}>
+            <Link to={item.link}>
               {item.title}
               {item.has_dropdown || item.img_dropdown ? (
                 <i className="fas fa-angle-down"></i>
               ) : null}
             </Link>
+            {/* <Link to={"/#"}>
+              {item.title}
+              {item.has_dropdown || item.img_dropdown ? (
+                <i className="fas fa-angle-down"></i>
+              ) : null}
+            </Link> */}
 
             {item.img_dropdown && (
               <ul className="submenu has-homemenu">

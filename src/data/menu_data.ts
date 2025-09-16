@@ -17,9 +17,8 @@ interface DataType {
 		demo_img?: string;
 	}[];
 }
-
 // menu data
-const menu_data: DataType[] = [
+const menu_data2: DataType[] = [
 	{
 		id: 1,
 		title: "Ana Sayfa",
@@ -70,6 +69,62 @@ const menu_data: DataType[] = [
 		id: 8,
 		title: "İletişim",
 		link: "/contact",
+		has_dropdown: false,
+	},
+];
+
+// menu data
+const menu_data: DataType[] = [
+	{
+		id: 1,
+		title: "Ana Sayfa",
+		link: "/",
+		img_dropdown: false,
+
+	},
+	{
+		id: 2,
+		title: "Hakkımızda",
+		link: "/about",
+		has_dropdown: false,
+	},
+	{
+		id: 3,
+		title: "Hizmetler",
+		link: "/#",
+		has_dropdown: false,
+		
+	},
+	// 	{
+	// 	id: 4,
+	// 	title: "Ürünler",
+	// 	link: "/product-list",
+	// 	has_dropdown: false,
+	// },
+	{
+		id: 5,
+		title: "Blog",
+		link: "/#",
+		has_dropdown: false,
+		
+	},
+	// 	{
+	// 	id: 6,
+	// 	title: "Sertifikalar",
+	// 	link: "/gallery",
+	// 	has_dropdown: false,
+	// },
+	{
+		id: 7,
+		title: "SSS",
+		link: "/#",
+		has_dropdown: false,
+		
+	},
+	{
+		id: 8,
+		title: "İletişim",
+		link: "/#",
 		has_dropdown: false,
 	},
 ];

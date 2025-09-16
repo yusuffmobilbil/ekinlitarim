@@ -84,7 +84,7 @@ export default function AboutHomeOne() {
                       </div>
                     </div>
                   </div>
-                  <Link to="/#" className="cmn-btn round100 cmn-primary2">
+                  <Link to="/about" className="cmn-btn round100 cmn-primary2">
                     Daha Fazla
                   </Link>
                 </div>

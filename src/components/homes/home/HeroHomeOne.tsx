@@ -8,7 +8,10 @@ export default function HeroHomeOne() {
         style={{ backgroundImage: "url(assets/img/banner/hero1-bg.jpg)" }}
       >
         <div className="container">
-          <div className="row g-4 align-items-center position-relative">
+          <div
+            style={{ padding: "0 24px" }}
+            className="row g-4 align-items-center position-relative"
+          >
             <div className="col-lg-7 col-md-7 col-sm-9">
               <div className="hero-contentv01">
                 <h1 className="wow fadeInUp" data-wow-delay="0.4s">

@@ -7,22 +7,19 @@ import PortfolioHomeOne from "../homes/home/PortfolioHomeOne";
 import SubscribeHomeThree from "../homes/home-3/SubscribeHomeThree";
 import BrandHomeOne from "../homes/home/BrandHomeOne";
 import Header from "../../layouts/headers/Header";
-import FooterTwo from "../../layouts/footers/FooterTwo";
+import Footer from "../../layouts/footers/FooterOne";
 import Wrapper from "../../layouts/Wrapper";
+import AboutHomeTwo from "../homes/home-2/AboutHomeTwo";
 
 export default function About() {
   return (
     <Wrapper>
       <Header />
       <Breadcrumnd title="Hakkımızda" subtitle="Hakkımızda" />
-      <AboutHomeOne />
-      <ServiceHomeOne style_2={true} />
+      <AboutHomeTwo />
       <TestimoniaHomeOne />
-      <CtaHomeOne />
-      <PortfolioHomeOne style_2={true} />
-      <BrandHomeOne style_3={true} />
-      <SubscribeHomeThree />
-      <FooterTwo />
+
+      <Footer />
     </Wrapper>
   );
 }
